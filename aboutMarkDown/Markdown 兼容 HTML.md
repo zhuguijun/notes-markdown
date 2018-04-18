@@ -24,4 +24,22 @@ HTML 的区段（行内）标签如 &lt;span>、&lt;cite>、&lt;del> 可以在 M
 
 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的
 
-对会编写html格式的小伙伴来说，是不是搜 so easy 
+对会编写html格式的小伙伴来说，是不是搜 so&nbsp;easy： 
+
+
+<div style={{background-color:red}}>
+    
+<mark>this is div start</mark>
+  
+this.is div content
+
+<mark>this is div end</mark>
+ 
+</div>
+
+<h3><del>this is h3 but is replace</del></h3>   
+<h4>this is h4</h4>
+<p>指数幂示例:</p>
+<p>2<sup>0</sup>=1;</p>
+<p>2<sup>1</sup>=2;</p>
+<p>2<sup>2</sup>=4;</p>
